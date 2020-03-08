@@ -6,12 +6,12 @@ from game.views import (
 
 urlpatterns = [
     url(
-        r'word',
+        r'word/(?P<game_id>[0-9a-f-]+)',
         VerifiyWordView.as_view(),
         name='verify_word_view'
     ),
     url(
-        r'board',
+        r'board/(?P<user_name>[0-9a-zA-Z-]+)',
         GameBoardView.as_view(),
         name='game_board_view'
     ),
