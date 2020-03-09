@@ -11,7 +11,7 @@ This project was created using Django framework
 - CD to the Project Directory `cd Boggle-django`
 - Create a virtual environment `virtualenv <name>`
 - Activate (mac) `source <name>/bin/activate`
-- Run `pip install -r requirements.txt`
+- Run `pip install -r requirements.txt` (make sure python version is greater than 3.6)
 - Run `./manage.py makemigrations`
 - Run `./manage.py migrate`
 - Run Application `./manage.py runserver` this will run the application on port 8000
