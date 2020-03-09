@@ -35,7 +35,7 @@ class VerifiyWordView(APIView):
     def post(self, request, *args, **kwargs):
         game_id = kwargs.get('game_id')
 
-        submitted_word = request.POST.get('word')
+        submitted_word = request.data.get('word')
         data = {
             'check': False,
         }
