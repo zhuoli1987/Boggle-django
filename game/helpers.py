@@ -81,7 +81,7 @@ def update_points_and_correct_words(game_id: Union[UUID, str], correct_word: str
 
     if correct_word:
         points = game.points
-        game.points = points + 1
+        game.points = points + len(correct_word)
 
         correct_words_str = game.correct_words
         if correct_words_str:

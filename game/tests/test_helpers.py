@@ -73,7 +73,7 @@ class UpdatePointsAndCorrectWordsTestCase(TestCase):
             correct_word
         )
 
-        self.assertEqual(game.points, 3)
+        self.assertEqual(game.points, 7)
         self.assertEqual(game.id, self.game.id)
         self.assertEqual(game.correct_words, 'apple,banana,peach')
 

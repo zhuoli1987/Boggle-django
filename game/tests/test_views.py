@@ -35,7 +35,7 @@ class VerifyWordViewTestCase(APITestCase):
         self.assertTrue(response)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(response.data['check'], True)
-        self.assertEqual(response.data['points'], 1)
+        self.assertEqual(response.data['points'], 5)
         self.assertEqual(response.data['correct_words'][0], 'apple')
 
     @patch('game.views.validate_word')
