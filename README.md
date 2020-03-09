@@ -4,6 +4,10 @@ The goal is to find as many words as possible given a time constraint.
 
 This project was created using Django framework
 
+## Verification of words
+
+In this project, we are using open source [Oxford dictionary API](https://developer.oxforddictionaries.com/) to 
+validate words. Other APIs are also acceptable.
 
 ## Deployment
 
