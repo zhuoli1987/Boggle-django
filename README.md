@@ -18,4 +18,7 @@ This project was created using Django framework
 
 ## Run tests
 
+- CD to the the top folder
+- Run `./manage.py test` (make sure your venv is activated)
+
 
