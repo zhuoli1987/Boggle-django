@@ -14,7 +14,7 @@ validate words. Other APIs are also acceptable.
 - Clone the project `git clone https://github.com/zhuoli1987/Boggle-django.git`
 - CD to the Project Directory `cd Boggle-django`
 - Create a virtual environment `virtualenv <name>`
-- Activate (mac) `source <name>/bin/activate`
+- Activate (mac or linux) `source <name>/bin/activate`, (windows) `.\venv\Scripts\activate`
 - Run `pip install -r requirements.txt` (make sure python version is greater than 3.6)
 - Run `./manage.py makemigrations`
 - Run `./manage.py migrate`
